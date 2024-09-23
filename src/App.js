@@ -2,6 +2,10 @@ import React from "react";
 import "./index.css";
 import backgroundImage from "./assests/images/background.jpg";
 import tempPerson from "./assests/images/temp_person.jpg";
+import ari from "./assests/images/ari.png";
+import dan from "./assests/images/dan.png";
+import arda from "./assests/images/arda.png";
+import andrew from "./assests/images/andrew.png";
 
 function App() {
   return (
@@ -10,7 +14,7 @@ function App() {
       <header className='bg-gray-800'>
         <nav className='flex items-center justify-between p-3'>
           {/* Left Navigation Links */}
-          <h1 className='relative font-bold text-white'>Cisc 327</h1>
+          <h1 className='relative font-bold text-white'>Cisc 322</h1>
 
           {/* Center Title */}
 
@@ -58,17 +62,17 @@ function App() {
         <div className='flex flex-wrap justify-center'>
           {/* Team Member 1 */}
           <div className='team-member m-4 text-center'>
-            <img src={tempPerson} alt='Member 1' className='w-40 h-40 rounded-full mx-auto' />
+            <img src={arda} alt='Member 1' className='w-40 h-40 rounded-full mx-auto' />
             <p className='mt-2 font-medium'>Arda</p>
           </div>
           {/* Team Member 2 */}
           <div className='team-member m-4 text-center'>
-            <img src={tempPerson} alt='Member 2' className='w-40 h-40 rounded-full mx-auto' />
+            <img src={andrew} alt='Member 2' className='w-40 h-40 rounded-full mx-auto' />
             <p className='mt-2 font-medium'>Andrew</p>
           </div>
           {/* Team Member 3 */}
           <div className='team-member m-4 text-center'>
-            <img src={tempPerson} alt='Member 3' className='w-40 h-40 rounded-full mx-auto' />
+            <img src={ari} alt='Member 3' className='w-40 h-40 rounded-full mx-auto' />
             <p className='mt-2 font-medium'>Ari</p>
           </div>
           {/* Team Member 4 */}
@@ -83,7 +87,7 @@ function App() {
           </div>
           {/* Team Member 6 */}
           <div className='team-member m-4 text-center'>
-            <img src={tempPerson} alt='Member 6' className='w-40 h-40 rounded-full mx-auto' />
+            <img src={dan} alt='Member 6' className='w-40 h-40 rounded-full mx-auto' />
             <p className='mt-2 font-medium'>Daniel</p>
           </div>
         </div>
