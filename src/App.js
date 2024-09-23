@@ -6,6 +6,8 @@ import ari from "./assests/images/ari.png";
 import dan from "./assests/images/dan.png";
 import arda from "./assests/images/arda.png";
 import andrew from "./assests/images/andrew.png";
+import kyra from "./assests/images/kyra.png";
+import oliver from "./assests/images/oliver.png";
 
 function App() {
   return (
@@ -65,7 +67,7 @@ function App() {
             <img src={arda} alt='Member 1' className='w-40 h-40 rounded-full mx-auto' />
             <p className='mt-2 font-medium'>Arda</p>
           </div>
-          {/* Team Member 2 */}
+          {/* Team Member 2 */},
           <div className='team-member m-4 text-center'>
             <img src={andrew} alt='Member 2' className='w-40 h-40 rounded-full mx-auto' />
             <p className='mt-2 font-medium'>Andrew</p>
@@ -77,12 +79,12 @@ function App() {
           </div>
           {/* Team Member 4 */}
           <div className='team-member m-4 text-center'>
-            <img src={tempPerson} alt='Member 4' className='w-40 h-40 rounded-full mx-auto' />
+            <img src={kyra} alt='Member 4' className='w-40 h-40 rounded-full mx-auto' />
             <p className='mt-2 font-medium'>Kyra</p>
           </div>
           {/* Team Member 5 */}
           <div className='team-member m-4 text-center'>
-            <img src={tempPerson} alt='Member 5' className='w-40 h-40 rounded-full mx-auto' />
+            <img src={oliver} alt='Member 5' className='w-40 h-40 rounded-full mx-auto' />
             <p className='mt-2 font-medium'>Oliver</p>
           </div>
           {/* Team Member 6 */}
