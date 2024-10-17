@@ -8,6 +8,8 @@ import arda from "./assests/images/arda.png";
 import andrew from "./assests/images/andrew.png";
 import kyra from "./assests/images/kyra.png";
 import oliver from "./assests/images/oliver.png";
+import a1p from "./assests/files/A1_P.pdf";
+import a1 from "./assests/files/A1.pdf";
 
 function App() {
   return (
@@ -97,8 +99,22 @@ function App() {
       {/* Section A1 */}
       <section id='a1' className='my-8 p-6 border-t border-gray-200'>
         <h2 className='text-2xl font-semibold text-center'>A1</h2>
-        <p className='mt-4 text-center max-w-2xl mx-auto'>Content for A1 section.</p>
+
+        <p className='mt-4 text-center max-w-2xl mx-auto'>PDF version of the report:</p>
+        <p className='mt-4 text-center max-w-2xl mx-auto'>
+          <a href={a1} download className='text-blue-500 underline'>
+            Download Report
+          </a>
+        </p>
+
+        <p className='mt-4 text-center max-w-2xl mx-auto'>PDF version of the powerpoint:</p>
+        <p className='mt-4 text-center max-w-2xl mx-auto'>
+          <a href={a1p} download className='text-blue-500 underline'>
+            Download PowerPoint
+          </a>
+        </p>
       </section>
+
       {/* Section A2 */}
       <section id='a2' className='my-8 p-6 border-t border-gray-200'>
         <h2 className='text-2xl font-semibold text-center'>A2</h2>
