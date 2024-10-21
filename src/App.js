@@ -113,6 +113,14 @@ function App() {
             Download PowerPoint
           </a>
         </p>
+
+        <p className='mt-4 text-center max-w-2xl mx-auto'>Link to our Presentation</p>
+
+        <p>
+          <a href='https://www.youtube.com/watch?v=k67KWGPIHEA&ab_channel=DanielDousek' className='text-blue-500 underline'>
+            Youtube Presentation
+          </a>
+        </p>
       </section>
 
       {/* Section A2 */}
