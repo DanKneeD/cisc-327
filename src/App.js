@@ -10,6 +10,8 @@ import kyra from "./assests/images/kyra.png";
 import oliver from "./assests/images/oliver.png";
 import a1p from "./assests/files/A1_P.pdf";
 import a1 from "./assests/files/A1.pdf";
+import a2 from "./assests/files/A2.pdf";
+import a2p from "./assests/files/A2_P.pdf";
 
 function App() {
   return (
@@ -126,8 +128,30 @@ function App() {
       {/* Section A2 */}
       <section id='a2' className='my-8 p-6 border-t border-gray-200'>
         <h2 className='text-2xl font-semibold text-center'>A2</h2>
-        <p className='mt-4 text-center max-w-2xl mx-auto'>Content for A2 section.</p>
+
+        <p className='mt-4 text-center max-w-2xl mx-auto'>PDF version of the report:</p>
+        <p className='mt-4 text-center max-w-2xl mx-auto'>
+          <a href={a2} download className='text-blue-500 underline'>
+            Download Report
+          </a>
+        </p>
+
+        <p className='mt-4 text-center max-w-2xl mx-auto'>PDF version of the powerpoint:</p>
+        <p className='mt-4 text-center max-w-2xl mx-auto'>
+          <a href={a2p} download className='text-blue-500 underline'>
+            Download PowerPoint
+          </a>
+        </p>
+
+        <p className='mt-4 text-center max-w-2xl mx-auto'>Link to our Presentation</p>
+
+        <p>
+          <a href='https://www.youtube.com/watch?v=lvv0Ha_3_N4&ab_channel=DanielDousek' className='text-blue-500 underline'>
+            Youtube Presentation
+          </a>
+        </p>
       </section>
+
       {/* Section A3 */}
       <section id='a3' className='my-8 p-6 border-t border-gray-200'>
         <h2 className='text-2xl font-semibold text-center'>A3</h2>
