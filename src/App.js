@@ -12,6 +12,8 @@ import a1p from "./assests/files/A1_P.pdf";
 import a1 from "./assests/files/A1.pdf";
 import a2 from "./assests/files/A2.pdf";
 import a2p from "./assests/files/A2_P.pdf";
+import a3 from "./assests/files/A3.pdf";
+import a3p from "./assests/files/A3_P.pdf";
 
 function App() {
   return (
@@ -155,7 +157,27 @@ function App() {
       {/* Section A3 */}
       <section id='a3' className='my-8 p-6 border-t border-gray-200'>
         <h2 className='text-2xl font-semibold text-center'>A3</h2>
-        <p className='mt-4 text-center max-w-2xl mx-auto'>Content for A3 section.</p>
+        <p className='mt-4 text-center max-w-2xl mx-auto'>PDF version of the report:</p>
+        <p className='mt-4 text-center max-w-2xl mx-auto'>
+          <a href={a3} download className='text-blue-500 underline'>
+            Download Report
+          </a>
+        </p>
+
+        <p className='mt-4 text-center max-w-2xl mx-auto'>PDF version of the powerpoint:</p>
+        <p className='mt-4 text-center max-w-2xl mx-auto'>
+          <a href={a3p} download className='text-blue-500 underline'>
+            Download PowerPoint
+          </a>
+        </p>
+
+        <p className='mt-4 text-center max-w-2xl mx-auto'>Link to our Presentation</p>
+
+        <p>
+          <a href='https://youtu.be/Fe-leXQ3yCA?si=0UIKGLCv6umJ72lw' className='text-blue-500 underline'>
+            Youtube Presentation
+          </a>
+        </p>
       </section>
     </div>
   );
